@@ -1,0 +1,87 @@
+:root {
+    --color-white: white;
+    --color-black: black;
+    --color-darkwhite: #FFFFFFB2;
+    --color-lightgrey: #000000B2;
+    --color-darkblue: #2C49FE;
+    --color-lightblue: #01C8FF;
+    --fw-sm: 400;
+    --fw-lg: 500;
+    --fw-md: 600;
+    --fw-xxl: 700;
+    --fs-ml: 14px;
+    --fs-lg: 16px;
+    --fs-sm: 24px;
+    --fs-md: 36px;
+    --fs-lx: 48px;
+    --fs-xl: 20px;
+    --fs-xxl: 64px;
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.color-black {
+    background-color: var(--color-black);
+}
+
+.color-darkblue {
+    color: var(--color-darkblue);
+}
+
+.color-lightblue {
+    color: var(--color-lightblue);
+}
+
+.color-darkwhite {
+    color: var(--color-darkwhite);
+}
+
+.color-lightgrey {
+    color: var(--color-lightgrey);
+}
+
+.fw-sm {
+    font-weight: var(--fw-sm);
+}
+
+.fw-xxl {
+    font-weight: var(--fw-xxl);
+}
+
+.fw-md {
+    font-weight: var(--fw-md);
+}
+
+.fw-lg {
+    font-weight: var(--fw-lg);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-ml {
+    font-size: var(--fs-ml);
+}
+
+.fs-lx {
+    font-size: var(--fs-lx);
+}
