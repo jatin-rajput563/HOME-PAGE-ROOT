@@ -9,6 +9,7 @@
     --fw-lg: 500;
     --fw-md: 600;
     --fw-xxl: 700;
+    --fs-xg: 12px;
     --fs-ml: 14px;
     --fs-lg: 16px;
     --fs-sm: 24px;
@@ -64,6 +65,10 @@
 
 .fs-md {
     font-size: var(--fs-md);
+}
+
+.fs-xg {
+    font-size: var(--fs-xg);
 }
 
 .fs-xxl {

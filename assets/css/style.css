@@ -43,7 +43,6 @@
 .Events {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
-    font-weight: 700;
     line-height: 49px;
     letter-spacing: 0em;
     text-align: left;
@@ -57,7 +56,6 @@
 .Free {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
-    font-weight: 700;
     line-height: 49px;
     letter-spacing: 0em;
     text-align: left;
@@ -102,8 +100,6 @@
 
 .nav-link {
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -221,7 +217,6 @@
 .text {
     font-family: "Poppins", sans-serif;
     font-size: 38px;
-    font-weight: 700;
     line-height: 50px;
     letter-spacing: 0em;
     text-align: left;
@@ -232,14 +227,11 @@
 
 .lorem {
     font-family: "Yantramanav", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
     color: #ffffffff;
     max-width: 765px;
-
 }
 
 .btn {
@@ -332,8 +324,6 @@
 
 .head {
     font-family: "Yantramanav", sans-serif;
-    font-size: 20px;
-    font-weight: 500;
     line-height: 26px;
     letter-spacing: 0em;
     text-align: left;
@@ -343,8 +333,6 @@
 
 .sen {
     font-family: "Yantramanav", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
@@ -384,8 +372,6 @@
 
 .dolor {
     font-family: " Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -393,7 +379,6 @@
 }
 
 .card {
-
     min-height: 198px;
     border-radius: 5px;
     background: white;
@@ -428,8 +413,6 @@
 
 .card-head {
     font-family: "Poppins", sans-serif;
-    font-size: 25px;
-    font-weight: 500;
     line-height: 38px;
     letter-spacing: 0em;
     text-align: center;
@@ -440,8 +423,6 @@
 
 .card-text {
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
@@ -463,8 +444,6 @@
 
 .sec-3-head {
     font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-weight: 700;
     line-height: 62px;
     letter-spacing: 0em;
     text-align: center;
@@ -474,8 +453,6 @@
 
 .sec-3-text {
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
@@ -502,7 +479,6 @@
 .joint {
     font-family: "Poppins", sans-serif;
     font-size: 18px;
-    font-weight: 400;
     line-height: 27px;
     letter-spacing: 0em;
     text-align: left;
@@ -511,8 +487,6 @@
 
 .numb {
     font-family: "Poppins", sans-serif;
-    font-size: 35px;
-    font-weight: 700;
     line-height: 53px;
     letter-spacing: 0em;
     text-align: left;
@@ -539,8 +513,6 @@
 
 .sec-4-head {
     font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-weight: 700;
     line-height: 66px;
     letter-spacing: 0em;
     text-align: left;
@@ -550,8 +522,6 @@
 
 .sec-4-text {
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -563,8 +533,6 @@
 
 .Learn {
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -575,18 +543,15 @@
 
 .date {
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
+    padding-top: 13px;
     color: #000000B2;
 }
 
 .col-head {
     font-family: "Poppins", sans-serif;
-    font-size: 24px;
-    font-weight: 500;
     line-height: 36px;
     letter-spacing: 0em;
     text-align: left;
@@ -609,8 +574,7 @@
 }
 
 .sec-4-box:hover {
-    transform: scale(0.8);
-    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 9px 32px 0px #0000000F;
 }
 
 .mt-70 {
@@ -640,8 +604,6 @@
 
 .Join {
     font-family: "Poppins", sans-serif;
-    font-size: 48px;
-    font-weight: 700;
     line-height: 72px;
     letter-spacing: 0em;
     text-align: left;
@@ -650,8 +612,6 @@
 
 .col-6-text {
     font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
@@ -662,8 +622,6 @@
 
 .sign {
     font-family: "Poppins", sans-serif;
-    font-size: 35px;
-    font-weight: 700;
     line-height: 53px;
     letter-spacing: 0em;
     text-align: left;
@@ -740,16 +698,12 @@
 
 .footer-text {
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
     color: white;
     max-width: 346px;
 }
-
-
 
 .gap10 {
     gap: 20px;
@@ -759,12 +713,8 @@
     padding-top: 30px;
 }
 
-
-
 .col-3-head {
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
@@ -785,8 +735,6 @@
 
 .col-3-text {
     font-family: "Poppins", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: left;
@@ -826,8 +774,6 @@ footer .container .row .col-12 .d-flex a:hover path {
 
 .gallery {
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
     line-height: 21px;
     letter-spacing: 0em;
     text-align: left;
@@ -848,11 +794,8 @@ footer .container .row .col-12 .d-flex a:hover path {
 
 .credits {
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
     line-height: 21px;
     letter-spacing: 0em;
-
     color: white;
     margin-top: 70px;
     padding-bottom: 25px;
