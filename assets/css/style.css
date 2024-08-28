@@ -99,6 +99,10 @@
     margin-top: 70px;
 }
 
+.mt-13 {
+    margin-top: 13px;
+}
+
 .mt-20 {
     margin-top: 20px;
 }
@@ -142,7 +146,9 @@
 .mb-24 {
     margin-bottom: 24px;
 }
-
+.ml-80{
+    margin-left: 80px;
+}
 .Events {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
@@ -440,7 +446,8 @@
     border-radius: 5px;
     background: white;
     border: 2px solid #2C49FE;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .card:hover {
@@ -748,14 +755,13 @@ footer .container .row .col-12 .d-flex a:hover path {
 }
 
 .show {
-    height: 100%;
+    height: 80.9%;
     background: #2D3CAE87;
     font-family: "Poppins", sans-serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0em;
-
     text-align: center;
     color: white;
 }
