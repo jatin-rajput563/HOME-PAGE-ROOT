@@ -5,8 +5,8 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
+    list-style: none !important;
+    text-decoration: none !important;
 }
 
 .pt-105 {
@@ -23,6 +23,10 @@
     z-index: 5;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 .z-1 {
     z-index: 1;
 }
@@ -31,6 +35,9 @@
     z-index: 10;
 }
 
+.w-20 {
+    width: 20%;
+}
 
 .pt-80 {
     padding-top: 80px;
@@ -38,6 +45,102 @@
 
 .pt-22 {
     padding-top: 22px;
+}
+
+.gap30 {
+    gap: 30px;
+}
+
+.w-24 {
+    width: 24px;
+}
+
+.h-24 {
+    height: 24px;
+}
+
+.mt-17 {
+    margin-top: 17px;
+}
+
+.gap23 {
+    gap: 23px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.yt-img {
+    width: 100%;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.mt-75 {
+    margin-top: 75px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.mt-177 {
+    margin-top: 177px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.pr-105 {
+    padding-right: 105px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
 }
 
 .Events {
@@ -49,10 +152,6 @@
     color: #2C49FE;
 }
 
-.w-20 {
-    width: 20%;
-}
-
 .Free {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
@@ -62,7 +161,6 @@
     color: #01C8FF;
 }
 
-
 .menuicon {
     display: flex;
     align-items: center;
@@ -70,14 +168,8 @@
     position: relative;
 }
 
-.gap30 {
-    gap: 30px;
-}
-
-
-
 .bg-img {
-    background-image: url(/assets/img/Rectangle\ 18.png);
+    background-image: url(/assets/image/Rectangle\ 18.png);
     min-height: 100vh;
     width: 100%;
     position: relative;
@@ -90,7 +182,7 @@
 .bg-img2 {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/assets/img/sec-3.png);
+    background-image: url(/assets/image/sec-3.png);
     background-position: center;
     min-height: 45vh;
     width: 100%;
@@ -105,13 +197,6 @@
     text-align: left;
     color: #ffffffff;
 }
-
-.w-24 {
-    width: 24px;
-    height: 24px;
-}
-
-
 
 .light {
     color: #FFFFFF;
@@ -265,24 +350,11 @@
     color: #ffffffff;
 }
 
-.gap23 {
-    gap: 23px;
-}
-
-.mt-50 {
-    margin-top: 30px;
-}
-
-.mt-30 {
-    margin-top: 30px;
-}
-
 .vertical {
     width: 74px;
     rotate: -90deg;
     background-color: white;
     height: 3px;
-
 }
 
 .bluebox {
@@ -292,12 +364,8 @@
     margin-top: 40px;
     padding-right: 15px;
     margin-bottom: 40px;
-
 }
 
-.mt-24 {
-    margin-top: 24px;
-}
 
 .check-btn {
     width: 185px;
@@ -309,17 +377,15 @@
     line-height: 30px;
     letter-spacing: 0em;
     text-align: center;
-    color: white;
-    background-color: #2C49FE;
+    color: #2C49FE;
+    background-color: white;
     border: none;
     margin-left: 30px;
-
-
 }
 
 .check-btn:hover {
-    color: #2C49FE;
-    background-color: white;
+    background-color: #2C49FE;
+    color: white;
 }
 
 .head {
@@ -344,20 +410,11 @@
     padding-left: 10px;
 }
 
-.pl-20 {
-    padding-left: 20px;
-}
-
 .yt-icon {
     height: 65px;
     top: 305px;
     right: 300px;
     position: relative;
-}
-
-.yt-img {
-    width: 100%;
-
 }
 
 .special {
@@ -382,8 +439,8 @@
     min-height: 198px;
     border-radius: 5px;
     background: white;
-    margin-top: 50px;
     border: 2px solid #2C49FE;
+    margin-bottom: 50px;
 }
 
 .card:hover {
@@ -427,7 +484,6 @@
     letter-spacing: 0em;
     text-align: center;
     color: #2C49FE;
-
 }
 
 .box {
@@ -438,9 +494,6 @@
     justify-content: center;
 }
 
-.pb-20 {
-    padding-bottom: 40px;
-}
 
 .sec-3-head {
     font-family: "Poppins", sans-serif;
@@ -459,21 +512,6 @@
     color: white;
     max-width: 718px;
     margin-top: 30px;
-}
-
-
-.mt-75 {
-    margin-top: 75px;
-}
-
-.f-direction {
-    flex-direction: column;
-}
-
-.col-3 {
-    width: 25%;
-    padding-left: 12px;
-    padding-right: 12px;
 }
 
 .joint {
@@ -503,14 +541,6 @@
     padding-top: 50px;
 }
 
-.w-100 {
-    width: 100%;
-}
-
-.pb-40 {
-    padding-bottom: 46px;
-}
-
 .sec-4-head {
     font-family: "Poppins", sans-serif;
     line-height: 66px;
@@ -538,8 +568,6 @@
     text-align: left;
     color: black;
 }
-
-
 
 .date {
     font-family: "Poppins", sans-serif;
@@ -577,10 +605,6 @@
     box-shadow: 2px 9px 32px 0px #0000000F;
 }
 
-.mt-70 {
-    margin-top: 70px;
-}
-
 .blanks {
     width: 100%;
     height: 42px;
@@ -598,9 +622,6 @@
     margin-top: 20px;
 }
 
-.mt-20 {
-    margin-top: 20px;
-}
 
 .Join {
     font-family: "Poppins", sans-serif;
@@ -692,10 +713,6 @@
 
 }
 
-.pt-70 {
-    padding-top: 70px;
-}
-
 .footer-text {
     font-family: "Poppins", sans-serif;
     line-height: 21px;
@@ -705,13 +722,6 @@
     max-width: 346px;
 }
 
-.gap10 {
-    gap: 20px;
-}
-
-.pt-30 {
-    padding-top: 30px;
-}
 
 .col-3-head {
     font-family: "Poppins", sans-serif;
@@ -719,18 +729,6 @@
     letter-spacing: 0em;
     text-align: left;
     color: #ffffffff;
-}
-
-.cursor {
-    cursor: pointer;
-}
-
-.w-40 {
-    width: 40%;
-}
-
-.w-70 {
-    width: 70%;
 }
 
 .col-3-text {
@@ -749,17 +747,6 @@ footer .container .row .col-12 .d-flex a:hover path {
 
 }
 
-
-
-
-.pt-50 {
-    padding-top: 60px;
-}
-
-.mt-177 {
-    margin-top: 177px;
-}
-
 .show {
     height: 100%;
     background: #2D3CAE87;
@@ -768,6 +755,7 @@ footer .container .row .col-12 .d-flex a:hover path {
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0em;
+
     text-align: center;
     color: white;
 }
@@ -780,10 +768,6 @@ footer .container .row .col-12 .d-flex a:hover path {
     color: white;
     margin-top: 60px;
     margin-bottom: 24px;
-}
-
-.mb-40 {
-    margin-bottom: 20px;
 }
 
 .show:hover {
@@ -800,18 +784,6 @@ footer .container .row .col-12 .d-flex a:hover path {
     margin-top: 70px;
     padding-bottom: 25px;
 }
-
-.pr-105 {
-    padding-right: 105px;
-}
-
-
-
-.mb-24 {
-    margin-bottom: 24px;
-}
-
-
 
 .in {
     display: none;
